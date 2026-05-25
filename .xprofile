@@ -1,0 +1,13 @@
+#!/bin/sh
+
+setxkbmap latam
+
+
+# Monitores
+xrandr \
+  --output HDMI-A-0 --mode 1680x1050 \
+  --output HDMI-A-1 --mode 1600x900 \
+  --right-of HDMI-A-0
+
+# Cursor
+xsetroot -cursor_name left_ptr
