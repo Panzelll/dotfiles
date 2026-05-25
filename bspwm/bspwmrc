@@ -2,6 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 setxkbmap latam &
+pgrep -x xautolock >/dev/null || xautolock -time 30 -locker "betterlockscreen -l dim" &
 
 bspc monitor HDMI-A-0 -d I II III VI 
 bspc monitor HDMI-A-1 -d IV V VII VIII IX X

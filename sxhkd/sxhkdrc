@@ -52,6 +52,11 @@ super + g
 Print
     flameshot gui -c
 
+# Bloqueo de pantalla
+super + l
+    betterlockscreen -l dim
+
+
 
 #
 # state/flags
