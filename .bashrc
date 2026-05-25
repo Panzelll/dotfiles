@@ -8,17 +8,19 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias ll='ls -lah --color=auto'
-
-# Apagar equipo
+alias cls='clear'
+alias celar='cls'
+alias clera='cls'
+alias claer='cls'
+# apagar
 alias apagar='systemctl poweroff'
-
 # Resetear teclado normal
 alias teclado='setxkbmap latam && numlockx on && xmodmap -e "keycode 104 = Return"'
-
+#Respaldar configuración
+alias dotbackup="$HOME/docs/backup-dotfiles.sh"
 # Reiniciar sxhkd
 alias rsxhkd='pkill -USR1 -x sxhkd'
-
 # Mostrar aliases y funciones personales
-alias aliases='alias && declare -F'
+alias comandos='alias'
 
 PS1='[\u@\h \W]\$ '
