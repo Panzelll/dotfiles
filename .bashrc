@@ -12,6 +12,7 @@ alias cls='clear'
 alias celar='cls'
 alias clera='cls'
 alias claer='cls'
+alias oci='ssh -i ~/.ssh/oci_nueva khop@129.146.34.239'
 # apagar
 alias apagar='systemctl poweroff'
 # Resetear teclado normal
